@@ -248,7 +248,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ####################################################################
-    # TODO: 5. Implement this function, per its doc-string above.
+    # DONE: 5. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).  IMPORTANT, IMPORTANT, IMPORTANT:
     #    Keep reading the rest of this TO DO before doing the above!
@@ -265,24 +265,23 @@ def try_methods_and_functions():
 
     Wow.backward(150)
 
-    Wow.speed(1)
+    Wow.speed = 1
     draw_many_squares(Wow, 2, 100, 30)
 
-    Wow.speed(5)
-    Wow.pen = rg.Pen("red")
+    Wow.speed = 5
+    Wow.pen.color = "red"
     draw_many_squares(Wow, 10, 50, 15)
 
-    Wow.speed(100)
-    Wow.pen = rg.Pen(35)
+    Wow.speed = 100
+    Wow.pen.thickness = 35
     draw_many_squares(Wow, 8, 300, 60)
 
-    Pop = rg.SimpleTurtle()
-    Pop.pen = rg.Pen("black", 3)
+    Wow.pen = rg.Pen("black", 3)
 
-    Pop.backward(200)
+    Wow.backward(200)
 
-    Pop.draw_circle(30)
-    Pop.draw_square(50)
+    Wow.draw_circle(30)
+    Wow.draw_square(50)
 
 
 # ----------------------------------------------------------------------
