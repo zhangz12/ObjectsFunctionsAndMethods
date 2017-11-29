@@ -44,10 +44,10 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #          -- Write the names of three METHODs that Circle objects have:
 #               (Hint: Use the circle from the example3 function below with the dot trick to let PyCharm help you. )
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                fill_color, attach_to, get_bounding_box
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                color, radius, center_point
 #
 #     f. What does a RoseWindow RENDER method do?
 #            It supplies the window for the objects.
